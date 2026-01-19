@@ -209,7 +209,6 @@ module.exports = async function (context, req) {
     "Access-Control-Allow-Headers": "Content-Type",
     "Access-Control-Max-Age": "86400"
   };
-
   // Preflight
   if (req.method === "OPTIONS") {
     context.res = { status: 204, headers: corsHeaders };
