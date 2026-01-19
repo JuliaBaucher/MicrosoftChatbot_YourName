@@ -108,14 +108,14 @@ Alternatively for Step 1 and 2, Open Azure AI Foundry  https://ai.azure.com/ and
 
 Use the **exact format below**:
 
-ENDPOINT  
-https://chatbot-yourname-instance.cognitiveservices.azure.com/
+ENDPOINT  //Example : https://julia-mkl20zjb-eastus2.cognitiveservices.azure.com/
 
-API KEY  
-<your-key-1>
 
-DEPLOYMENT NAME  
-gpt-4o-mini
+API KEY  // Example: 319KkjcHeS24oYPLHkbaNKdhbky05gN7vhXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXxx
+
+
+DEPLOYMENT NAME  //example: gpt-4o-mini-YourName
+
 
 Important:
 - The endpoint is the **base URL only**
@@ -198,6 +198,7 @@ Function App → Functions → chat → Code + Test
 Replace **everything** in `index.js` with the code below & your github URL for  "Access-Control-Allow-Origin": "https://yourname.github.io",  
 
 '''
+
 // api/chat/index.js (CommonJS)
 // Returns PLAIN TEXT (no JSON braces) so your UI displays cleanly.
 
