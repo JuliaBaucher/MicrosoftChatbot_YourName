@@ -197,7 +197,7 @@ Go to:
 Function App → Functions → chat → Code + Test  
 Replace **everything** in `index.js` with the code below & your github URL for  "Access-Control-Allow-Origin": "https://yourname.github.io",  
 
-'''
+```
 
 // api/chat/index.js (CommonJS)
 // Returns PLAIN TEXT (no JSON braces) so your UI displays cleanly.
@@ -311,7 +311,7 @@ module.exports = async function (context, req) {
     };
   }
 };
-'''
+```
 
 Click **Save**  
 Save = Deploy (no package.json required)
